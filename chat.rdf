@@ -1,0 +1,245 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" >
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jparameter:data">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getType.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:chat">
+    <j.0:library_date>2013_10_01__16_03_20</j.0:library_date>
+    <j.0:library_location>/home/yashwanth/Desktop/thesis/JavaChat-master/src</j.0:library_location>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:contains_library rdf:resource="asset:chat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jparameter:data"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jparameter:type"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress.jparameter:ex">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:IOException</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jparameter:type">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:PacketType</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPingPacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPingPacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress.jparameter:ex">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:UnknownHostException</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printExternalIP.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jparameter:oldName">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress.jparameter:ex"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket.jparameter:msg">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jparameter:newName"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jparameter:oldName"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getData.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printInternalIP">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printInternalIP.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPingPacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket.jparameter:msg"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createQuitPacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printInternalIP.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket.jparameter:newName">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPongPacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getData">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getData.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jattribute:type">
+    <j.0:attribute_type>http://www.rdfcoder.org/2007/1.0#jpackage:PacketType</j.0:attribute_type>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:Packet</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket.jparameter:name"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jclass:IPUtil"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jenumeration:PacketType">
+    <j.0:contains_element rdf:resource="jelement:PONG"/>
+    <j.0:contains_element rdf:resource="jelement:PING"/>
+    <j.0:contains_element rdf:resource="jelement:QUIT"/>
+    <j.0:contains_element rdf:resource="jelement:NAME"/>
+    <j.0:contains_element rdf:resource="jelement:HELO"/>
+    <j.0:contains_element rdf:resource="jelement:MSG"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JEnumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket.jparameter:name">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress.jparameter:ex"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createQuitPacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createQuitPacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jattribute:data">
+    <j.0:attribute_type>http://www.rdfcoder.org/2007/1.0#jpackage:String</j.0:attribute_type>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:Serializable"/>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPingPacket"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createHeloPacket"/>
+    <j.0:contains_constructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getData"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getType"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createQuitPacket"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPongPacket"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jattribute:type"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jattribute:data"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:Serializable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createNamePacket"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message">
+    <j.0:contains_enumeration rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jenumeration:PacketType"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jclass:Packet"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:getType.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:PacketType</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jclass:IPUtil">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getExternalIPAddress"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printExternalIP"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:getInternalIPAddress"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printInternalIP"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createMsgPacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printExternalIP">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.util.jmethod:printExternalIP.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPongPacket">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:javachat.network.message.jmethod:createPongPacket.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+</rdf:RDF>
